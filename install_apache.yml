@@ -5,7 +5,7 @@
   tasks:
   
   - name: install apache, add php package
-    apt:
+    package:
       name: 
         - "{{ apache_package }}"
         - "{{ php_package }}"
